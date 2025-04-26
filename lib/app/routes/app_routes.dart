@@ -12,6 +12,13 @@ abstract class Routes {
   static const ALL_CATEGORY = _Paths.ALL_CATEGORY;
   static const ALL_CARDS = _Paths.ALL_CARDS;
   static const ALL_CARTS = _Paths.ALL_CARTS;
+  static const SIGNUP = _Paths.SIGNUP;
+  static const LOGIN = _Paths.LOGIN;
+  static const JWELLERY = _Paths.JWELLERY;
+  static const ELECTRONICS = _Paths.ELECTRONICS;
+  static const MEN_CLOTHING = _Paths.MEN_CLOTHING;
+  static const WOMEN_CLOTHING = _Paths.WOMEN_CLOTHING;
+  static const NOTIFICATION = _Paths.NOTIFICATION;
 }
 
 abstract class _Paths {
@@ -25,4 +32,11 @@ abstract class _Paths {
   static const ALL_CATEGORY = '/all-category';
   static const ALL_CARDS = '/all-cards';
   static const ALL_CARTS = '/all-carts';
+  static const SIGNUP = '/signup';
+  static const LOGIN = '/login';
+  static const JWELLERY = '/jwellery';
+  static const ELECTRONICS = '/electronics';
+  static const MEN_CLOTHING = '/men-clothing';
+  static const WOMEN_CLOTHING = '/women-clothing';
+  static const NOTIFICATION = '/notification';
 }

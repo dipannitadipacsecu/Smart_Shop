@@ -53,7 +53,7 @@ class Rating {
     });
 
     final double rate;
-    final int count;
+    final double count;
 
     factory Rating.fromJson(Map<String, dynamic> json){ 
         return Rating(
